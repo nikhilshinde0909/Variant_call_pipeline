@@ -4,18 +4,18 @@ Here we represent a workflow for variant call using GATK4. This includes alignme
 
 # Getting started
 1. Install needed softwares by creating conda environment
-   `mamba env create -f environment.yml`
+   ```mamba env create -f environment.yml```
 
 2. Obtain reference genome and resquencing reads in fastq or fastq.gz format
 3. Add path for reference genome in file named "prepare_and_index_genome.sh" and run following command
    
-   `bash prepare_and_index_genome.sh`
+   ```bash prepare_and_index_genome.sh```
    
    this will index reference genome for BWA and Picard
 5. Add details for reference genome, raw fastqs and sample prefix to file named "Run_variant_call.sh" 
 6. Now this workflow is ready for run using bash
    
-   `bash Run_variant_call.sh`
+  ```bash Run_variant_call.sh```
    
 8. We have exexcuted this workflow on sorghum so we used "Sorghum_bicolor" as snpeff database. This parameter will vary users need.
 
