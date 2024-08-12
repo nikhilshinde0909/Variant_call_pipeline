@@ -25,6 +25,6 @@ Here we represent a workflow for variant call using GATK4. This includes alignme
    bash Run_variant_call.sh
    ```
    
-8. We have exexcuted this workflow on sorghum so we used "Sorghum_bicolor" as snpeff database. This parameter will vary users need.
+8. We have exexcuted this workflow on sorghum so we used "Sorghum_bicolor" as snpeff database. This parameter will vary as per users interest.
 
 # Thanks for using our variant call pipeline
