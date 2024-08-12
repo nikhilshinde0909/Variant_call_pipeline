@@ -1,6 +1,6 @@
 # Variant call pipeline using GATK4
 
-Here we represent a workflow for variant call using GATK4. This is modification of existing varient-calling pipeline [https://gencore.bio.nyu.edu/variant-calling-pipeline-gatk4/] for conda environment. These includes several steps alignment, base qual-score recaliberation, variant call, filtering SNPs-Indels and predict their effects combined in single bash script.
+Here we represent a workflow for variant call using GATK4. This is modification of existing varient-calling pipeline [https://gencore.bio.nyu.edu/variant-calling-pipeline-gatk4/] for conda environment and easy to implement. These includes several steps alignment, base qual-score recaliberation, variant call, filtering SNPs-Indels and predict their effects which has been combined in single bash script.
 
 # Getting started
 1. Download the pipeline as follows
