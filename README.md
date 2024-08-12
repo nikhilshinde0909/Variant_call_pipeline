@@ -3,7 +3,12 @@
 Here we represent a workflow for variant call using GATK4. This includes alignment, base qual-score recaliberation, variant call, filtering SNPs-Indes and predict their effects.
 
 # Getting started
-1. Install needed softwares by creating conda environment
+1. Download the pipeline as follows
+   ```
+   git clone https://github.com/nikhilshinde0909/Variant_call_pipeline.git
+   ```
+   
+2. Install needed softwares by creating conda environment
    ```
    mamba env create -f environment.yml
    ```
@@ -13,11 +18,13 @@ Here we represent a workflow for variant call using GATK4. This includes alignme
    bash prepare_and_index_genome.sh
    ``` 
    this will index reference genome for BWA and Picard
+   
 6. Add details for reference genome, raw fastqs and sample prefix to file named "Run_variant_call.sh" 
 7. Now this workflow is ready for run using bash
    ```
    bash Run_variant_call.sh
    ```
-9. We have exexcuted this workflow on sorghum so we used "Sorghum_bicolor" as snpeff database. This parameter will vary users need.
+   
+8. We have exexcuted this workflow on sorghum so we used "Sorghum_bicolor" as snpeff database. This parameter will vary users need.
 
 # Thanks for using our variant call pipeline
