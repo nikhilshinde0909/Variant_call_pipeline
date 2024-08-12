@@ -2,9 +2,9 @@
 
 # Define Parameters
 Reference="genome/sbicolor_btx623.dna.toplevel.fa"
-Read_R1="raw_data/PI144134_1.fastq.gz"
-Read_R2="raw_data/PI144134_2.fastq.gz"
-Prefix="PI144134"
+Read_R1="raw_data/SRR351221_1.fastq.gz"
+Read_R2="raw_data/SRR351221_2.fastq.gz"
+Prefix="SRR351221"
 threads="8"
 
 # Start analysis
