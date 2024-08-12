@@ -8,9 +8,10 @@ Here we represent a workflow for variant call using GATK4. This includes alignme
    git clone https://github.com/nikhilshinde0909/Variant_call_pipeline.git
    ```
    
-2. Install needed softwares by creating conda environment
+2. Install needed softwares by creating conda environment and activate it
    ```
    mamba env create -f environment.yml
+   conda activate variant_env
    ```
 3. Obtain reference genome and resquencing reads in fastq or fastq.gz format
 4. Add path for reference genome in file named "prepare_and_index_genome.sh" and run following command
